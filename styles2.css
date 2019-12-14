@@ -1,0 +1,87 @@
+*{
+    box-sizing : border-box;
+}
+body{
+    width : 80%;
+    margin : auto;
+    border: 1px solid #000;
+    background-color:rgb(252, 248, 248);
+}
+
+.header{
+    text-align: center;
+    padding : 15px;
+    background-image: url("livingroom.jpg");
+    opacity: 0.5;
+    /*background-color: rgb(241, 198, 117);*/
+}
+h1{
+    font-family: fantasy;
+    font-weight: bold;
+}
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.navigator{
+    font-weight: bold;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    /*background-color:rgb(231, 229, 229);*/
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    width: 100%;
+    height: 35px;
+    border: 1px dashed #000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(238, 237, 237);
+    
+    
+}
+.navigator a{
+    color: rgb(206, 159, 58);
+}
+
+.navigator a:hover {
+        color: rgb(240, 102, 11);
+}
+.content1{
+    padding : 0px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+h2{
+    padding-left: 320px;
+    text-decoration: underline;
+}
+.image{
+    float:left;
+    width: 30%;
+    padding-right: 5px;
+    height : 200px;
+    
+    border-radius: 25px;
+}
+.content2{
+    padding-top: 45px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.content3{
+    padding-top: 85px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+a{
+    color: rgb(121, 120, 120);
+}
+
+
+
